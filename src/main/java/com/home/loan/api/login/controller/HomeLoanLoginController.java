@@ -50,6 +50,7 @@ public class HomeLoanLoginController {
 		loginResponse.setJwt(jwtToken);
 		loginResponse.setUsername(userDetails.getUsername());
 		loginResponse.setRoles(roles);
+		//test
 		return new ResponseEntity<>(loginResponse, HttpStatus.OK);
 
 	}
